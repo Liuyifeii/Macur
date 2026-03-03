@@ -1,0 +1,23 @@
+vocab_file: data/artifacts/vocab_smiles.json
+pretrain_checkpoint: outputs/checkpoints/final
+save_dir_root: outputs/ppo_curriculum_checkpoints
+steps_per_stage: 1000
+batch_size: 8
+mini_batch_size: 4
+learning_rate: 1e-5
+init_kl_coef: 0.3
+target_kl: 0.02
+gen_max_length: 128
+top_k: 50
+top_p: 0.95
+base_temperature: 1.2
+baseline_window_size: 4000
+
+macro_target_stage2: 0.4
+macro_target_stage3: 0.5
+macro_target_stage4: 0.6
+macro_target_stage5: 0.7
+unique_target_ratio: 0.35
+max_repeat_epochs_per_stage: 4
+
+

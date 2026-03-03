@@ -1,0 +1,9 @@
+{
+  "bos_token": "[START]",
+  "clean_up_tokenization_spaces": true,
+  "eos_token": "[END]",
+  "model_max_length": 512,
+  "pad_token": "[PAD]",
+  "tokenizer_class": "WrappedTokenizer",
+  "unk_token": "[UNK]"
+}

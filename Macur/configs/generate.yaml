@@ -1,0 +1,8 @@
+vocab: data/artifacts/vocab_smiles.json
+model_dir: outputs/ppo_curriculum_checkpoints/final
+stage: stage_5
+num: 5000
+max_length: 300
+out_dir: outputs/samples
+
+

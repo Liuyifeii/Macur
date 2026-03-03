@@ -1,0 +1,10 @@
+vocab: data/artifacts/vocab_smiles.json
+clean_smiles: data/processed/clean_smiles.txt
+save_dir: outputs/checkpoints
+epochs: 10
+batch: 64
+lr: 3e-4
+block_size: 128
+save_total_limit: 10
+
+
